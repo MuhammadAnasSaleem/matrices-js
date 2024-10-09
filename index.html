@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="input-section">
+            <form id="input-form">
+                <input type="number" id="user-input" placeholder="0" min="1" max="5" onkeydown=" return false;">
+                <label for="user-input"></label>
+                <button id="generate">Generate</button>
+
+            </form>
+
+        </div>
+        <div class="box-1">
+            <!-- add by js -->
+        </div>
+        <br></br>
+        <div class="box-2">
+            <!-- add by js -->
+
+        </div>
+
+
+
+        <div class="operations-section">
+            <select name="operations" id="operations">
+                <option value="add">Addition</option>
+                <option value="sub">Subraction</option>
+            </select>
+            <button onclick="addMatrix()" class="result">Result</button>
+        </div>
+
+        <div class="result-section">
+            <!-- add by js -->
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
